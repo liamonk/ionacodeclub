@@ -1,0 +1,11 @@
+img {
+    display: block;
+    position: relative;
+    left: -50%;
+}
+
+#centerImage{
+  display: inline-block;
+  right: 0;
+  position: absolute;
+}

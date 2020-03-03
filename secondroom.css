@@ -1,6 +1,6 @@
 body {
   font-family: Impact;
-  background-color: rgb(110,30,200);
+  background-color: rgb(50,50,200);
 }
 .roomname {
   font-size: 30px;
@@ -11,18 +11,17 @@ body {
   position: relative;
   height: 200px;
   border: 1px solid black;
-  background-image: url(entrancestripes.jpg);
+  background-image: url(thirdstripes.png);
 }
 .description {
   padding: 10px;
   color: white;
 }
-
-#entrance2secondroom {
+#secondroom2entrance {
   width:50px;
   height:100px;
   display: inline-block;
-  background-color: rgb(50,50,200);
+  background-color: rgb(110,30,200);
   border: 10px ridge burlywood;
   border-bottom: none;
   padding: 10px;
@@ -30,12 +29,20 @@ body {
   text-align: center;
   position: absolute;
   bottom: 0;
-  left: 600;
-  }
+  left: 10;
+}
 
-#entrance2secretroom {
-  width:5px;
-  height:1px;
-  left: 5;
-  background-color: burlywood;
+#secondroom2thirdroom {
+  width:50px;
+  height:100px;
+  display: inline-block;
+  background-color: DimGrey;
+  border: 10px ridge burlywood;
+  border-bottom: none;
+  padding: 10px;
+  color:chartreuse;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  right: 10;
 }
