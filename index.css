@@ -3,6 +3,14 @@ body{
   color: white;
 }
 
+a:link{
+  color: yellow;
+}
+
+a:visited{
+  color: chartruse;
+}
+
 h1{
   text-align: center;
 }
